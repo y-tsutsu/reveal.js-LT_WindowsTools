@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ja">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-markdown
+				    data-separator="\n---\n$"
+				    data-vertical="\n--\n">
+				    <script type="text/template">
+
+## 最初に入れておくべき
+## Windowsアプリ
+<br>
+### tsutsu＠FA3G
+
+---
+
+## 商売道具は快適に！
+
+---
+
+## 日常アプリ
+
+--
+
+## Webブラウザ
+<br>
+Google Chrome　Firefox　Opera
+
+--
+
+## メーラ
+<br>
+Thunder bird　Windows Live メール　Opera Mail
+
+--
+
+## テキストエディタ
+<br>
+秀丸　TeraPad　Notepad++　サクラエディタ
+
+---
+
+## ファイル操作関連
+
+--
+
+## 解凍圧縮
+<br>
+7-Zip　Lhaplus　Lhaz　Lhaforge
+
+--
+
+## ファイルマネージャ
+<br>
+X-Finder　As/R　Q-Dir　QtTabBar
+
+--
+
+## その他ファイル操作
+<br>
+Fire File Copy　FastCopy　Everything　Unlocker
+
+---
+
+## デスクトップ関連
+
+--
+
+## ランチャ
+<br>
+Orchis　nrLaunch　bluewind　CLaunch　Aqulina
+
+--
+
+## 仮想デスクトップ
+<br>
+Dexpot　VirtuaWin
+
+--
+
+## その他デスクトップ関連
+<br>
+フォント　壁紙　マウスカーソル
+
+---
+
+## ユーティリティ
+
+--
+
+## マウスジェスチャー
+<br>
+MouseGestureL.ahk　Smalker　かざぐるマウス
+
+--
+
+## クリップボード
+<br>
+CLCL　ToMoClip　Clibor
+
+--
+
+## 環境変数
+<br>
+Rapid Environment Editor
+
+---
+
+## プログラミング
+
+--
+
+## Visual Studio 2013
+<br>
+for Web　for Windows　for Windows Desktop
+
+--
+
+## UNIXとかGNUとか
+<br>
+Cygwin　MinGW
+
+--
+
+## スクリプト
+<br>
+Ruby　Python
+
+---
+
+# Thank U for Reading
+<br>
+### BY tsutsu
+
+				    </script>
+				</sectin>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
